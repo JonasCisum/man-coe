@@ -39,7 +39,7 @@ header a {
 }
 
 header a:hover {
-    color: #00A0C6;
+    color: #328aa0;
     /* PLACEHOLDER COLOR */
     text-decoration: none;
     cursor: pointer;
@@ -201,7 +201,6 @@ h3 {
 
 .footer_column p {
     color: #fff;
-
 }
 
 .splashtxt {
@@ -219,7 +218,6 @@ footer {
     width: 80%;
     margin: 0 auto;
     padding: 20px 20px;
-
 }
 
 .footer_column {
