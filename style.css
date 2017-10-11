@@ -196,11 +196,11 @@ h3 {
 }
 
 .footer_column h3 {
-    color: #fff;
+    color: #bebebe;
 }
 
 .footer_column p {
-    color: #fff;
+    color: #bebebe;
 
 }
 
@@ -210,7 +210,7 @@ h3 {
 
 footer {
     margin: 0 auto;
-    background-color: #999;
+    background-color: #555;
 }
 
 .footer_flex {
@@ -226,5 +226,8 @@ footer {
     flex-basis: 200px;
     flex-grow: 1;
     margin: 0 20px;
-    width: 80%;
 }
+
+
+
+/********** KUN FOR OM OS SIDEN **********/
