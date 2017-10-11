@@ -195,6 +195,10 @@ h3 {
     margin: 0;
 }
 
+.splashtxt {
+    font-size: 10vw;
+}
+
 footer h3 {
     color: black;
     width: 80%;
