@@ -54,12 +54,6 @@ header a:hover {
     height: 50vw;
 }
 
-.parent {}
-
-.child {
-    text-align: center;
-}
-
 .boxcontainer_1 {
     display: flex;
     flex-wrap: wrap;
@@ -174,6 +168,13 @@ header a:hover {
     margin-right: 2%;
 }
 
+.parent {
+    display: flex;
+    justify-content: center;
+}
+
+.child {}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
 }
@@ -185,6 +186,7 @@ h2 {
 h3 {
     font-family: 'Montserrat', sans-serif;
     color: white;
+    margin: 0;
 }
 
 footer h3 {
