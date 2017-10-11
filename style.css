@@ -9,6 +9,19 @@ body {
     font-family: 'open sans';
 }
 
+.logo {
+    background-image: url(ikon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:
+}
+
+header nav {
+    text-align: center;
+    word-spacing: 1vw;
+}
+
 #content {
     background-color: #E4DFDA;
     width: 100vw;
@@ -51,7 +64,7 @@ body {
 }
 
 .box_2 {
-    background-image: url(stockimg3.jpg);
+    background-image: url(schneider-1149346_1920.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
