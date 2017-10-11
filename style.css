@@ -1,254 +1,283 @@
     * {
-    box-sizing: border-box;
-}
+        box-sizing: border-box;
+    }
 
-body {
-    margin: 0;
-    /*    font-size: 62.5%;*/
-    font-family: 'Open Sans', sans-serif;
-}
+    body {
+        margin: 0;
+        /*    font-size: 62.5%;*/
+        font-family: 'Open Sans', sans-serif;
+    }
 
-.logo {
-    background-image: url(ikon.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
-    width: 100vw;
-    height: 10vw;
-    margin-bottom: 10px;
-}
+    .logo {
+        background-image: url(ikon.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        width: 100vw;
+        height: 10vw;
+        margin-bottom: 10px;
+    }
 
-nav a {
-    padding: 0 20px;
-}
+    nav a {
+        padding: 0 20px;
+    }
 
-header nav {
-    text-align: center;
-    word-spacing: 1vw;
-    font-family: 'Open Sans', sans-serif;
-    color: black;
-    margin-bottom: 2vw;
-}
+    header nav {
+        text-align: center;
+        word-spacing: 1vw;
+        font-family: 'Open Sans', sans-serif;
+        color: black;
+        margin-bottom: 2vw;
+    }
 
-header a {
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    color: inherit;
-    text-decoration: none;
-}
+    header a {
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        color: inherit;
+        text-decoration: none;
+    }
 
-header a:hover {
-    color: #328aa0;
-    /* PLACEHOLDER COLOR */
-    text-decoration: none;
-    cursor: pointer;
-}
+    header a:hover {
+        color: #328aa0;
+        /* PLACEHOLDER COLOR */
+        text-decoration: none;
+        cursor: pointer;
+    }
 
-#content {
-    background-color: #E4DFDA;
-    width: 100vw;
-}
+    #content {
+        background-color: #E4DFDA;
+        width: 100vw;
+    }
 
-.splash {
-    background-image: url(splashimg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    width: 100vw;
-    height: 50vw;
-}
+    .splash {
+        background-image: url(splashimg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 100vw;
+        height: 50vw;
+    }
 
-.boxcontainer_1 {
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-    margin: 0 auto;
-    background-color: #fff;
-}
+    .boxcontainer_1 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+        background-color: #fff;
+    }
 
-.box_1 {
-    background-image: url(http://betheme.muffingroupsc.netdna-cdn.com/be/tailor/wp-content/uploads/2016/07/home_tailor_slidingbox3.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding-bottom: 38%;
-    /*
+    .box_1 {
+        background-image: url(http://betheme.muffingroupsc.netdna-cdn.com/be/tailor/wp-content/uploads/2016/07/home_tailor_slidingbox3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding-bottom: 38%;
+        /*
     width: 100%;
     height: 30vw;
 */
-    flex-basis: 250px;
-    flex-grow: 1;
-    margin: 20px 0;
-    margin-left: 2%;
-    margin-right: 2%;
-}
+        flex-basis: 250px;
+        flex-grow: 1;
+        margin: 20px 0;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
 
-.box_2 {
-    background-image: url(schneider-1149346_1920.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding-bottom: 38%;
-    /*
+    .box_2 {
+        background-image: url(schneider-1149346_1920.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding-bottom: 38%;
+        /*
     width: 100%;
     height: 30vw;
 */
-    flex-basis: 250px;
-    flex-grow: 1;
-    margin: 20px 0;
-    margin-left: 2%;
-    margin-right: 2%;
-}
+        flex-basis: 250px;
+        flex-grow: 1;
+        margin: 20px 0;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
 
-.boxcontainer_2 {
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-    margin: 0 auto;
-    background-color: #fff;
-}
+    .boxcontainer_2 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+        background-color: #fff;
+    }
 
-.box_3 {
-    background-image: url(stockimg2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding-bottom: 38%;
-    /*
+    .box_3 {
+        background-image: url(stockimg2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding-bottom: 38%;
+        /*
     width: 100%;
     height: 30vw;
 */
-    flex-basis: 250px;
-    flex-grow: 1;
-    margin: 20px 0;
-    margin-left: 2%;
-    margin-right: 2%;
-}
+        flex-basis: 250px;
+        flex-grow: 1;
+        margin: 20px 0;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
 
-.boxcontainer_3 {
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-    margin: 0 auto;
-    background-color: #fff;
-}
+    .boxcontainer_3 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+        background-color: #fff;
+    }
 
-.box_4 {
-    background-image: url(stockimg5.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding-bottom: 38%;
-    /*
+    .box_4 {
+        background-image: url(stockimg5.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding-bottom: 38%;
+        /*
     width: 100%;
     height: 30vw;
 */
-    flex-basis: 250px;
-    flex-grow: 1;
-    margin: 20px 0;
-    margin-left: 2%;
-    margin-right: 2%;
-}
+        flex-basis: 250px;
+        flex-grow: 1;
+        margin: 20px 0;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
 
-.box_5 {
-    background-image: url(stockimg4.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding-bottom: 38%;
-    /*
+    .box_5 {
+        background-image: url(stockimg4.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding-bottom: 38%;
+        /*
     width: 100%;
     height: 30vw;
 */
-    flex-basis: 250px;
-    flex-grow: 1;
-    margin: 20px 0;
-    margin-left: 2%;
-    margin-right: 2%;
-}
+        flex-basis: 250px;
+        flex-grow: 1;
+        margin: 20px 0;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
 
-.parent {
-    display: flex;
-    justify-content: center;
-}
+    .parent {
+        display: flex;
+        justify-content: center;
+    }
 
-.child {}
+    .child {}
 
-h1 {
-    font-family: 'Montserrat', sans-serif;
-}
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+    }
 
-h2 {
-    font-family: 'Montserrat', sans-serif;
-}
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+    }
 
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    margin: 0;
-}
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        margin: 0;
+    }
 
-.footer_column h3 {
-    color: #bebebe;
-}
+    .footer_column h3 {
+        color: #bebebe;
+    }
 
-.footer_column p {
-    color: #bebebe;
-}
+    .footer_column p {
+        color: #bebebe;
+    }
 
-.splashtxt {
-    font-size: 10vw;
-}
+    .splashtxt {
+        font-size: 10vw;
+    }
 
-footer {
-    margin: 0 auto;
-    background-color: #555;
-}
+    footer {
+        margin: 0 auto;
+        background-color: #555;
+    }
 
-.footer_flex {
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px 20px;
-}
+    .footer_flex {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px 20px;
+    }
 
-.footer_column {
-    flex-basis: 200px;
-    flex-grow: 1;
-    margin: 0 20px;
-}
+    .footer_column {
+        flex-basis: 200px;
+        flex-grow: 1;
+        margin: 0 20px;
+    }
+    /********** KUN FOR OM OS SIDEN **********/
 
+    #omcontent .boxcontainer_1 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 4vw;
+    }
 
-/********** KUN FOR OM OS SIDEN **********/
+    #omcontent .omtxt_1 {
+        background-position: center;
+        flex-basis: 300;
+        flex-grow: 1;
+        height: 30vw;
+        width: 30vw;
+        margin: 4vw;
+        max-width: 400px;
+    }
 
-#omcontent .boxcontainer_1 {
-    display: flex;
-    flex-wrap: wrap;
-}
+    #omcontent .omimg_1 {
+        background-image: url(http://betheme.muffingroupsc.netdna-cdn.com/be/tailor/wp-content/uploads/2016/07/home_tailor_slidingbox3.jpg);
+        flex-basis: 300;
+        flex-grow: 1;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 30vw;
+        width: 30vw;
+        margin: 4vw;
+    }
 
-#omcontent .omtxt_1 {
-    background-position: center;
-    flex-basis: 300;
-    flex-grow: 1;
-    height: 30vw;
-    width: 30vw;
-    background-color: pink;
-}
+    #omcontent .omimg_2 {
+        background-image: url(http://betheme.muffingroupsc.netdna-cdn.com/be/tailor/wp-content/uploads/2016/07/home_tailor_slidingbox3.jpg);
+        flex-basis: 300;
+        flex-grow: 1;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 30vw;
+        width: 30vw;
+        margin: 4vw;
+    }
 
-#omcontent .omimg_1 {
-    background-image: url(http://betheme.muffingroupsc.netdna-cdn.com/be/tailor/wp-content/uploads/2016/07/home_tailor_slidingbox3.jpg);
-    flex-basis: 300;
-    flex-grow: 1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 30vw;
-    width: 30vw;
+    #omcontent .omtxt_2 {
+        background-position: center;
+        flex-basis: 300;
+        flex-grow: 1;
+        height: 30vw;
+        width: 30vw;
+        margin: 4vw;
+    }
+
+    .boxdivider {
+        background-color: #328aa0;
+        ;
+        height: 0.3vw;
+    }
