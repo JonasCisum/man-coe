@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    font-family: serif;
 }
 
 body {
@@ -20,6 +19,7 @@ body {
 header nav {
     text-align: center;
     word-spacing: 1vw;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #content {
