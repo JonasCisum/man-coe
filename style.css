@@ -200,12 +200,7 @@ h3 {
 }
 
 .footer_column p {
-<<<<<<< HEAD
-    color: #fff;
-=======
     color: #bebebe;
-
->>>>>>> origin/master
 }
 
 .splashtxt {
@@ -230,7 +225,6 @@ footer {
     flex-grow: 1;
     margin: 0 20px;
 }
-
 
 
 /********** KUN FOR OM OS SIDEN **********/
