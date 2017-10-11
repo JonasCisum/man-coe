@@ -6,7 +6,7 @@
 body {
     margin: 0;
     /*    font-size: 62.5%;*/
-    font-family: 'open sans';
+    font-family: 'Open Sans', sans-serif;
 }
 
 .logo {
@@ -161,4 +161,5 @@ h2 {
 
 h3 {
     font-family: 'Montserrat', sans-serif;
+    color: white;
 }
