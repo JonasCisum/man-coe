@@ -201,8 +201,12 @@ h3 {
 
 .footer_column p {
     color: #fff;
+
 }
 
+.splashtxt {
+    font-size: 10vw;
+}
 
 footer {
     margin: 0 auto;
