@@ -9,6 +9,10 @@ body {
     font-family: 'open sans';
 }
 
+#content {
+    background-color: #E4DFDA;
+}
+
 .splash {
     background-image: url(splashimg.jpg);
     background-position: center;
@@ -19,15 +23,28 @@ body {
     height: 50vw;
 }
 
+
+.boxcontainer_1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 60vh;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
 .box_1 {
     background-image: url(http://betheme.muffingroupsc.netdna-cdn.com/be/tailor/wp-content/uploads/2016/07/home_tailor_slidingbox3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    padding-bottom: 100%;
     width: 100%;
-    height: 100%;
+    height: 30vw;
+    flex-basis: 250px;
+    flex-grow: 1;
+    margin: 20px 0;
+    margin-left: 20px;
+    margin-right: 10px;
 }
 
 .box_2 {
@@ -35,10 +52,13 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    padding-bottom: 100%;
     width: 100%;
-    height: 100%;
+    height: 30vw;
+    flex-basis: 250px;
+    flex-grow: 1;
+    margin: 20px 0;
+    margin-left: 10px;
+    margin-right: 20px;
 }
 
 h1 {
