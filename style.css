@@ -16,6 +16,11 @@ body {
     position: relative;
     width: 100vw;
     height: 10vw;
+    margin-bottom: 10px;
+}
+
+nav a {
+    padding: 0 20px;
 }
 
 header nav {
@@ -23,6 +28,7 @@ header nav {
     word-spacing: 1vw;
     font-family: 'Open Sans', sans-serif;
     color: black;
+    margin-bottom: 2vw;
 }
 
 header a {
