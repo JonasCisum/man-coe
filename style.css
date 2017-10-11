@@ -54,6 +54,12 @@ header a:hover {
     height: 50vw;
 }
 
+.parent {}
+
+.child {
+    text-align: center;
+}
+
 .boxcontainer_1 {
     display: flex;
     flex-wrap: wrap;
