@@ -52,6 +52,7 @@
         width: 100vw;
     }
 
+
     #content_priser {
         background-color: #E4DFDA;
         width: 100vw;
@@ -188,23 +189,33 @@
         text-shadow: 2px 2px 20px #000000;
     }
 
-    #before_footer {
-        background-color: #E4DFDA;
-        width: 100vw;
-    }
-
     #before_content {
         background-color: #E4DFDA;
         width: 100vw;
         height: 40px;
     }
 
+    .content_end {
+        height: 40px;
+        width: 80%;
+        margin: 0 auto;
+        background-color: #fff;
+    }
+
+    #before_footer {
+        background-color: #E4DFDA;
+        width: 100vw;
+        height: 40px;
+    }
+
+    /*
     .before_footer_div {
         height: 100px;
         width: 80%;
         margin: 0 auto;
         background-color: #fff;
     }
+*/
 
     footer {
         margin: 0 auto;
