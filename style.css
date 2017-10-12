@@ -50,6 +50,11 @@
         width: 100vw;
     }
 
+    #content_priser {
+        background-color: #E4DFDA;
+        width: 100vw;
+    }
+
     .splash {
         background-image: url(splashimg.jpg);
         background-position: center;
@@ -73,17 +78,12 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        position: relative;
-        padding-bottom: 38%;
-        /*
-    width: 100%;
-    height: 30vw;
-*/
         flex-basis: 250px;
         flex-grow: 1;
         margin: 20px 0;
         margin-left: 2%;
         margin-right: 2%;
+        height: 30vw;
     }
 
     .box_2 {
@@ -176,10 +176,22 @@
 
     .parent {
         display: flex;
+        flex-direction: column;
         justify-content: center;
+        height: 100%;
     }
 
-    .child {}
+    .inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .textcenter {
+        outline: 2px solid red;
+        text-align: center;
+    }
 
     h1 {
         font-family: 'Montserrat', sans-serif;
@@ -207,6 +219,19 @@
         font-size: 10vw;
     }
 
+    #before_footer {
+        background-color: #E4DFDA;
+        width: 100vw;
+
+    }
+
+    .before_footer_div {
+        height: 100px;
+        width: 80%;
+        margin: 0 auto;
+        background-color: #fff;
+    }
+
     footer {
         margin: 0 auto;
         background-color: #555;
@@ -225,6 +250,7 @@
         flex-grow: 1;
         margin: 0 20px;
     }
+
     /********** KUN FOR OM OS SIDEN **********/
 
     #omcontent .boxcontainer_1 {
@@ -282,4 +308,65 @@
         background-color: #328aa0;
         ;
         height: 0.3vw;
+    }
+
+    /********** KUN FOR PRISER SIDEN **********/
+
+    #content_priser .boxcontainer_1 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 40px;
+        padding-bottom: 0;
+    }
+
+    .accordion {
+        flex-basis: 400px;
+        flex-grow: 1;
+        /*    margin-left: 40px;*/
+        /*    margin-right: 40px;*/
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    button.accordion {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+    }
+
+    button.accordion.active,
+    button.accordion:hover {
+        background-color: #ccc;
+    }
+
+    button.accordion:after {
+        content: '\002B';
+        color: #777;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+    }
+
+    button.accordion.active:after {
+        content: "\2212";
+    }
+
+    div.panel {
+        padding: 0 18px;
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
     }
