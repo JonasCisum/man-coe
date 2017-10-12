@@ -144,6 +144,9 @@
     .textcenter {
         outline: 2px solid red;
         text-align: center;
+        font-size: 3vw;
+        text-shadow: 2px 2px 4px #000000;
+
     }
 
     h1 {
@@ -202,6 +205,22 @@
         flex-grow: 1;
         margin: 0 20px;
     }
+
+    hr {
+        border: none;
+        border-top: 1px dashed;
+        color: #D6EDFF;
+        background-color: #000;
+        height: 1px;
+        width: 100%;
+    }
+
+    .line {
+        width: 80vw;
+        margin: 0 auto;
+        padding: 40px 2%;
+    }
+
     /********** KUN FOR OM OS SIDEN **********/
 
     #omcontent {
@@ -258,6 +277,7 @@
         height: 0.3vw;
         margin: 20px;
     }
+
     /********** KUN FOR PRISER SIDEN **********/
 
     #content_priser .boxcontainer_1 {
