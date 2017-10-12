@@ -10,7 +10,7 @@
 
     h1 {
         font-family: 'Montserrat', sans-serif;
-        color: #222222;
+        color: #222;
         font-size: 2.4em;
         font-weight: 700;
         margin-top: 0;
@@ -18,7 +18,7 @@
 
     h2 {
         font-family: 'Montserrat', sans-serif;
-        color: #222222;
+        color: #222;
         font-size: 2.0em;
         font-weight: 600;
         margin-top: 0;
@@ -182,10 +182,6 @@
         margin-top: 2vw;
     }
 
-    .box_1 {
-        background-image: url(http://betheme.muffingroupsc.netdna-cdn.com/be/tailor/wp-content/uploads/2016/07/home_tailor_slidingbox3.jpg);
-    }
-
     .box_0_overlay_white {
         background-color: rgba(255, 255, 255, 0.1);
     }
@@ -198,44 +194,24 @@
         background-color: rgba(255, 255, 255, 0.2);
     }
 
+    .box_1 {
+        background-image: url(privat.jpg);
+    }
+
     .box_2 {
-        background-image: url(schneider-1149346_1920.jpg);
-    }
-
-    .box_2_overlay {
-        background-color: rgba(255, 255, 255, 0.3);
-    }
-
-    .box_2_overlay:hover {
-        background-color: rgba(255, 255, 255, 0.2);
+        background-image: url(erhverv.jpg);
     }
 
     .box_3 {
         background-image: url(stockimg2.jpg);
     }
 
-    .box_3_overlay {
-        background-color: rgba(255, 255, 255, 0.3);
-    }
-
-    .box_3_overlay:hover {
-        background-color: rgba(255, 255, 255, 0.2);
-    }
-
     .box_4 {
         background-image: url(stockimg5.jpg);
     }
 
-    .box_4_overlay {
-        background-color: rgba(0, 0, 0, 0.3);
-    }
-
     .box_5 {
         background-image: url(stockimg4.jpg);
-    }
-
-    .box_5_overlay {
-        background-color: rgba(255, 0, 0, 0.3);
     }
 
     .parent {
@@ -252,13 +228,7 @@
         height: 100%;
     }
 
-    .footer_column h3 {
-        color: #bebebe;
-    }
 
-    .footer_column p {
-        color: #bebebe;
-    }
 
     .splashtxt {
         /*        outline: 2px solid red;*/
@@ -286,6 +256,7 @@
         width: 100vw;
         height: 40px;
     }
+
     /*
     .before_footer_div {
         height: 100px;
@@ -295,9 +266,17 @@
     }
 */
 
+    .footer_column h3 {
+        color: #D6EDFF;
+    }
+
+    .footer_column p {
+        color: #D6EDFF;
+    }
+
     footer {
         margin: 0 auto;
-        background-color: #555;
+        background-color: #328AA0;
     }
 
     .footer_flex {
@@ -329,6 +308,7 @@
         width: 90%;
         margin: 0 auto;
     }
+
     /********** KUN FOR OM OS SIDEN **********/
 
     #omcontent {
@@ -407,6 +387,7 @@
         width: 100%;
         margin: 4vw;
     }
+
     /********** KUN FOR PRISER SIDEN **********/
 
     #content_priser .boxcontainer_1 {
@@ -435,7 +416,7 @@
     }
 
     button.accordion {
-        background-color: #E6F4FF;
+        background-color: #EDB179;
         color: #444;
         cursor: pointer;
         padding: 18px;
