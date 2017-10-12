@@ -64,7 +64,7 @@
         background-size: cover;
         position: relative;
         width: 100vw;
-        height: 50vw;
+        height: 25vw;
     }
 
     .boxcontainer_1 {
@@ -91,6 +91,13 @@
         background-color: #fff;
     }
 
+    .boxcontainer_1,
+    .boxcontainer_2,
+    .boxcontainer_3 {
+        padding: 3vw;
+        padding-bottom: 0;
+    }
+
     .box_1,
     .box_2,
     .box_3,
@@ -101,10 +108,11 @@
         background-size: cover;
         flex-basis: 250px;
         flex-grow: 1;
-        margin: 20px 0;
-        margin-left: 2%;
-        margin-right: 2%;
-        height: 32vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        height: 25vw;
     }
 
     .box_1 {
@@ -142,11 +150,11 @@
     }
 
     .textcenter {
-        outline: 2px solid red;
+        /*        outline: 2px solid red;*/
         text-align: center;
         font-size: 3vw;
-        text-shadow: 2px 2px 4px #000000;
-
+        font-weight: 500;
+        text-shadow: 2px 2px 20px #000000;
     }
 
     h1 {
@@ -172,12 +180,22 @@
     }
 
     .splashtxt {
-        font-size: 10vw;
+        /*        outline: 2px solid red;*/
+        text-align: center;
+        font-size: 4vw;
+        font-weight: 500;
+        text-shadow: 2px 2px 20px #000000;
     }
 
     #before_footer {
         background-color: #E4DFDA;
         width: 100vw;
+    }
+
+    #before_content {
+        background-color: #E4DFDA;
+        width: 100vw;
+        height: 40px;
     }
 
     .before_footer_div {
@@ -195,6 +213,7 @@
     .footer_flex {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         width: 80%;
         margin: 0 auto;
         padding: 20px 20px;
@@ -203,7 +222,9 @@
     .footer_column {
         flex-basis: 200px;
         flex-grow: 1;
-        margin: 0 20px;
+        margin: 0px 20px;
+        margin-top: 20px;
+        padding: 0;
     }
 
     hr {
