@@ -9,14 +9,16 @@
     }
 
     .logo {
-        background-image: url(ikon.jpg);
+        /*        background-image: url(ikon.jpg);*/
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
-        position: relative;
-        width: 100vw;
-        height: 10vw;
+        /*        position: relative;*/
+        /*        width: 100vw;*/
+        /*        height: 10vw;*/
         margin-bottom: 10px;
+        margin-top: 20px;
+        text-align: center;
     }
 
     nav a {
@@ -73,61 +75,12 @@
         background-color: #fff;
     }
 
-    .box_1 {
-        background-image: url(http://betheme.muffingroupsc.netdna-cdn.com/be/tailor/wp-content/uploads/2016/07/home_tailor_slidingbox3.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        flex-basis: 250px;
-        flex-grow: 1;
-        margin: 20px 0;
-        margin-left: 2%;
-        margin-right: 2%;
-        height: 30vw;
-    }
-
-    .box_2 {
-        background-image: url(schneider-1149346_1920.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        padding-bottom: 38%;
-        /*
-    width: 100%;
-    height: 30vw;
-*/
-        flex-basis: 250px;
-        flex-grow: 1;
-        margin: 20px 0;
-        margin-left: 2%;
-        margin-right: 2%;
-    }
-
     .boxcontainer_2 {
         display: flex;
         flex-wrap: wrap;
         width: 80%;
         margin: 0 auto;
         background-color: #fff;
-    }
-
-    .box_3 {
-        background-image: url(stockimg2.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        padding-bottom: 38%;
-        /*
-    width: 100%;
-    height: 30vw;
-*/
-        flex-basis: 250px;
-        flex-grow: 1;
-        margin: 20px 0;
-        margin-left: 2%;
-        margin-right: 2%;
     }
 
     .boxcontainer_3 {
@@ -138,40 +91,40 @@
         background-color: #fff;
     }
 
-    .box_4 {
-        background-image: url(stockimg5.jpg);
+    .box_1,
+    .box_2,
+    .box_3,
+    .box_4,
+    .box_5 {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        position: relative;
-        padding-bottom: 38%;
-        /*
-    width: 100%;
-    height: 30vw;
-*/
         flex-basis: 250px;
         flex-grow: 1;
         margin: 20px 0;
         margin-left: 2%;
         margin-right: 2%;
+        height: 32vw;
+    }
+
+    .box_1 {
+        background-image: url(http://betheme.muffingroupsc.netdna-cdn.com/be/tailor/wp-content/uploads/2016/07/home_tailor_slidingbox3.jpg);
+    }
+
+    .box_2 {
+        background-image: url(schneider-1149346_1920.jpg);
+    }
+
+    .box_3 {
+        background-image: url(stockimg2.jpg);
+    }
+
+    .box_4 {
+        background-image: url(stockimg5.jpg);
     }
 
     .box_5 {
         background-image: url(stockimg4.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        padding-bottom: 38%;
-        /*
-    width: 100%;
-    height: 30vw;
-*/
-        flex-basis: 250px;
-        flex-grow: 1;
-        margin: 20px 0;
-        margin-left: 2%;
-        margin-right: 2%;
     }
 
     .parent {
