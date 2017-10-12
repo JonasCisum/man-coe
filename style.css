@@ -4,8 +4,42 @@
 
     body {
         margin: 0;
-        /*    font-size: 62.5%;*/
+        font-size: 62.5%;
         font-family: 'Open Sans', sans-serif;
+    }
+
+
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        color: #222222;
+        font-size: 2.4em;
+        font-weight: 700;
+        margin-top: 0;
+
+    }
+
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+        color: #222222;
+        font-size: 2.0em;
+        font-weight: 600;
+        margin-top: 0;
+    }
+
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.6em;
+        font-weight: 500;
+        margin-top: 0;
+    }
+
+    .textcenter {
+        /*        outline: 2px solid red;*/
+        text-align: center;
+        color: #fff;
+        font-size: 3vw;
+        font-weight: 500;
+        text-shadow: 2px 2px 20px #000000;
     }
 
     .logo {
@@ -16,7 +50,7 @@
         /*        position: relative;*/
         /*        width: 100vw;*/
         /*        height: 10vw;*/
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         margin-top: 20px;
         text-align: center;
     }
@@ -26,16 +60,17 @@
     }
 
     header nav {
+        font-size: 1.8em;
+        font-weight: 300;
         text-align: center;
         word-spacing: 1vw;
-        font-family: 'Open Sans', sans-serif;
-        color: black;
+        font-family: 'Montserrat', sans-serif;
+        color: #222222;
         margin-bottom: 2vw;
     }
 
     header a {
         text-align: center;
-        font-family: 'Open Sans', sans-serif;
         color: inherit;
         text-decoration: none;
     }
@@ -66,6 +101,17 @@
         position: relative;
         width: 100vw;
         height: 25vw;
+    }
+
+    .boxcontainer_0 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding: 3vw;
+        padding-bottom: 0;
+        background-color: #fff;
     }
 
     .boxcontainer_1 {
@@ -99,6 +145,7 @@
         padding-bottom: 0;
     }
 
+    .box_0,
     .box_1,
     .box_2,
     .box_3,
@@ -109,31 +156,73 @@
         background-size: cover;
         flex-basis: 250px;
         flex-grow: 1;
-        margin-top: 2vw;
-        margin-bottom: 2vw;
+        margin-top: 0vw;
+        margin-bottom: 0vw;
         margin-left: 2vw;
         margin-right: 2vw;
         height: 25vw;
+    }
+
+    .box_0 {
+        background-image: url(splashimg.jpg);
+        margin-top: 2vw;
+
     }
 
     .box_1 {
         background-image: url(http://betheme.muffingroupsc.netdna-cdn.com/be/tailor/wp-content/uploads/2016/07/home_tailor_slidingbox3.jpg);
     }
 
+    .box_0_overlay_white {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .box_overlay_white {
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .box_overlay_white:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
     .box_2 {
         background-image: url(schneider-1149346_1920.jpg);
+    }
+
+    .box_2_overlay {
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .box_2_overlay:hover {
+        background-color: rgba(255, 255, 255, 0.2);
     }
 
     .box_3 {
         background-image: url(stockimg2.jpg);
     }
 
+    .box_3_overlay {
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .box_3_overlay:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
     .box_4 {
         background-image: url(stockimg5.jpg);
     }
 
+    .box_4_overlay {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
     .box_5 {
         background-image: url(stockimg4.jpg);
+    }
+
+    .box_5_overlay {
+        background-color: rgba(255, 0, 0, 0.3);
     }
 
     .parent {
@@ -150,28 +239,7 @@
         height: 100%;
     }
 
-    .textcenter {
-        /*        outline: 2px solid red;*/
-        text-align: center;
-        font-size: 3vw;
-        font-weight: 500;
-        text-shadow: 2px 2px 20px #000000;
-    }
 
-    h1 {
-        font-family: 'Montserrat', sans-serif;
-    }
-
-    h2 {
-        font-family: 'Montserrat', sans-serif;
-        color: #222222;
-    }
-
-    h3 {
-        font-family: 'Montserrat', sans-serif;
-        color: white;
-        margin: 0;
-    }
 
     .footer_column h3 {
         color: #bebebe;
