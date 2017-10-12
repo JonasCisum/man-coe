@@ -326,7 +326,7 @@
     }
 
     button.accordion {
-        background-color: #eee;
+        background-color: #E6F4FF;
         color: #444;
         cursor: pointer;
         padding: 18px;
@@ -340,7 +340,7 @@
 
     button.accordion.active,
     button.accordion:hover {
-        background-color: #ccc;
+        background-color: #D6EDFF;
     }
 
     button.accordion:after {
