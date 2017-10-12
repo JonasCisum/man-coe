@@ -154,6 +154,7 @@
 
     h2 {
         font-family: 'Montserrat', sans-serif;
+        color: #222222;
     }
 
     h3 {
@@ -207,14 +208,14 @@
 
     hr {
         border: none;
-        border-top: 4px dashed;
+        border-top: 2px dashed;
         color: #D6EDFF;
         height: 1px;
         width: 100%;
     }
 
     .line {
-        width: 80vw;
+        width: 90%;
         margin: 0 auto;
     }
     /********** KUN FOR OM OS SIDEN **********/
