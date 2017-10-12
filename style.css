@@ -6,9 +6,7 @@
         margin: 0;
         font-size: 62.5%;
         font-family: 'Open Sans', sans-serif;
-
     }
-
 
     h1 {
         font-family: 'Montserrat', sans-serif;
@@ -16,7 +14,6 @@
         font-size: 2.4em;
         font-weight: 700;
         margin-top: 0;
-
     }
 
     h2 {
@@ -48,6 +45,16 @@
         font-size: 3vw;
         font-weight: 500;
         text-shadow: 2px 2px 20px #000000;
+    }
+
+    .textcenter a {
+        /*        outline: 2px solid red;*/
+        text-align: center;
+        color: #fff;
+        font-size: 3vw;
+        font-weight: 500;
+        text-shadow: 2px 2px 20px #000000;
+        text-decoration: none;
     }
 
     .logo {
@@ -173,7 +180,6 @@
     .box_0 {
         background-image: url(splashimg.jpg);
         margin-top: 2vw;
-
     }
 
     .box_1 {
@@ -246,8 +252,6 @@
         height: 100%;
     }
 
-
-
     .footer_column h3 {
         color: #bebebe;
     }
@@ -282,7 +286,6 @@
         width: 100vw;
         height: 40px;
     }
-
     /*
     .before_footer_div {
         height: 100px;
@@ -326,7 +329,6 @@
         width: 90%;
         margin: 0 auto;
     }
-
     /********** KUN FOR OM OS SIDEN **********/
 
     #omcontent {
@@ -343,7 +345,12 @@
         flex-grow: 1;
         flex-basis: 300px;
         margin: 4vw;
-        font-size: 1.em;
+    }
+
+    #omcontent .omtxt_1,
+    .omtxt_2,
+    p {
+        font-size: 1.6em;
     }
 
     #omcontent .omimg_1 {
@@ -352,7 +359,6 @@
         height: 30vw;
         width: 30vw;
         margin: 4vw;
-
         position: relative;
     }
 
@@ -401,7 +407,6 @@
         width: 100%;
         margin: 4vw;
     }
-
     /********** KUN FOR PRISER SIDEN **********/
 
     #content_priser .boxcontainer_1 {
