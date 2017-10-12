@@ -52,7 +52,6 @@
         width: 100vw;
     }
 
-
     #content_priser {
         background-color: #E4DFDA;
         width: 100vw;
@@ -207,7 +206,6 @@
         width: 100vw;
         height: 40px;
     }
-
     /*
     .before_footer_div {
         height: 100px;
@@ -251,7 +249,6 @@
         width: 90%;
         margin: 0 auto;
     }
-
     /********** KUN FOR OM OS SIDEN **********/
 
     #omcontent {
@@ -272,16 +269,22 @@
     }
 
     #omcontent .omimg_1 {
-        background-image: url(http://betheme.muffingroupsc.netdna-cdn.com/be/tailor/wp-content/uploads/2016/07/home_tailor_slidingbox3.jpg);
         flex-basis: 200;
         flex-grow: 1;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
         height: 30vw;
         width: 30vw;
         margin: 4vw;
+
+        position: relative;
     }
+
+#omcontent .omimg_1 iframe{
+    position: absolute;
+    width:100%!important;
+    height:100%!important;
+    margin:0;
+    padding: 0;
+}
 
     #omcontent .omimg_2 {
         background-image: url(http://betheme.muffingroupsc.netdna-cdn.com/be/tailor/wp-content/uploads/2016/07/home_tailor_slidingbox3.jpg);
@@ -302,6 +305,24 @@
         font-size: 1.em;
     }
 
+    #omcontent .boxcontainer_3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #omcontent .omtxt_3 {
+        flex-grow: 1;
+        flex-basis: 100;
+        margin: 4vw;
+        font-size: 1.em;
+    }
+
+    #omcontent .map {
+        flex-basis: 100;
+        flex-grow: 1;
+        width: 100%;
+        margin: 4vw;
+    }
     /********** KUN FOR PRISER SIDEN **********/
 
     #content_priser .boxcontainer_1 {
