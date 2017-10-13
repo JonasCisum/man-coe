@@ -199,6 +199,13 @@
         background-image: url(privat2.jpg);
     }
 
+    @media screen and (max-width:756px) {
+        .box_1,
+        .box_4 {
+            margin-bottom: 3vw;
+        }
+    }
+
     .box_2 {
         background-image: url(erhverv.jpg);
     }
