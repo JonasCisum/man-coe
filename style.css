@@ -401,13 +401,12 @@
     @media screen and (max-width:447px) {
         #content_priser .boxcontainer_1 {
             padding: 0;
-            margin: 0;
         }
     }
 
     @media screen and (max-width:447px) {
         #content_priser .before_accord {
-            margin-left: 3vw;
+            margin: 3vw;
         }
     }
 
