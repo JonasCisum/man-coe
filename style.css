@@ -92,6 +92,19 @@
         text-align: center;
     }
 
+    .navcontainer a:link,
+    #navlist a:visited {
+        color: red;
+        text-decoration: none;
+    }
+
+    nav a.active {
+        border: 0;
+        border-bottom: 2px;
+        border-style: solid;
+        border-color: #D6EDFF;
+    }
+
     nav a {
         padding: 0 20px;
     }
