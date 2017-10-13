@@ -217,7 +217,7 @@
     }
 
     .box_1 {
-        background-image: url(privat2.jpg);
+        background-image: url(img/privat2.jpg);
     }
 
     @media screen and (max-width:756px) {
