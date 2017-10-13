@@ -60,6 +60,25 @@
         margin: 0;
     }
 
+    .textcenter_manchet {
+        /*        outline: 2px solid red;*/
+        text-align: center;
+        color: #fff;
+        letter-spacing: 0.2vw;
+        font-size: 1.8vw;
+        font-weight: 300;
+        text-shadow: 2px 2px 20px #000000;
+        margin: 0;
+    }
+
+    .textcenter_manchet a {
+        /*        outline: 2px solid red;*/
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+        margin: 0;
+    }
+
     .logo {
         /*        background-image: url(ikon.jpg);*/
         background-position: center;
