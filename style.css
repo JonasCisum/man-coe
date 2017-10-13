@@ -109,7 +109,7 @@
     }
 
     .splash {
-        background-image: url(splashimg.jpg);
+        background-image: url(img/splashimg.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -179,7 +179,7 @@
     }
 
     .box_0 {
-        background-image: url(splashimg.jpg);
+        background-image: url(img/splashimg.jpg);
         margin-top: 2vw;
     }
 
@@ -207,19 +207,19 @@
     }
 
     .box_2 {
-        background-image: url(erhverv.jpg);
+        background-image: url(img/erhverv.jpg);
     }
 
     .box_3 {
-        background-image: url(stockimg2.jpg);
+        background-image: url(img/stockimg2.jpg);
     }
 
     .box_4 {
-        background-image: url(stockimg4.jpg);
+        background-image: url(img/stockimg4.jpg);
     }
 
     .box_5 {
-        background-image: url(jette-baden.png);
+        background-image: url(img/jette-baden.jpg);
     }
 
     .parent {
@@ -262,6 +262,7 @@
         width: 100vw;
         height: 40px;
     }
+
     /*
     .before_footer_div {
         height: 100px;
@@ -313,6 +314,7 @@
         width: 90%;
         margin: 0 auto;
     }
+
     /********** KUN FOR OM OS SIDEN **********/
 
     #omcontent {
@@ -351,7 +353,7 @@
     }
 
     #omcontent .omimg_2 {
-        background-image: url(stockimg7.jpg);
+        background-image: url(img/stockimg7.jpg);
         flex-basis: 300;
         flex-grow: 1;
         background-position: center;
@@ -377,6 +379,7 @@
     #omcontent .omtxt_3 {
         flex-grow: 1;
         flex-basis: 100;
+        margin: 4vw;
         font-size: 1.em;
     }
 
@@ -386,6 +389,7 @@
         width: 100%;
         margin: 4vw;
     }
+
     /********** KUN FOR PRISER SIDEN **********/
 
     #content_priser .boxcontainer_1 {
